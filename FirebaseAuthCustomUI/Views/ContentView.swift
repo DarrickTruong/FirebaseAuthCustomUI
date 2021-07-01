@@ -7,15 +7,18 @@
 
 import SwiftUI
 import FirebaseAuth
+import FirebaseFirestore
 
 struct ContentView: View {
     
     @Binding var isLoggedIn:Bool
+   
     
     var body: some View {
         
-        VStack {
+        VStack (spacing: 20){
             Text("Welcome World")
+            
             Button(action: {
                 
                 try! Auth.auth().signOut()
@@ -28,6 +31,8 @@ struct ContentView: View {
         }
         
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

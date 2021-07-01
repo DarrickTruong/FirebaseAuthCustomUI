@@ -16,6 +16,8 @@ struct LaunchView: View {
     // should put isLoggedIn in ContentModel
     @State var isLoggedIn = false
     
+    var userID:String = ""
+    
     var body: some View {
         
         if !isLoggedIn {
@@ -34,7 +36,6 @@ struct LaunchView: View {
                 })
                 
                 
-                
                 // create account button
                 Button(action: {
                     showCreateForm = true
@@ -49,7 +50,6 @@ struct LaunchView: View {
                 checkLogin()
             })
             
-            
         } else {
             
             ContentView(isLoggedIn: $isLoggedIn)
@@ -59,6 +59,7 @@ struct LaunchView: View {
     func checkLogin() {
         
         isLoggedIn = Auth.auth().currentUser == nil ? false : true
+        
     }
 }
 

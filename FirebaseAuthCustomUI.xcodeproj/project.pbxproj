@@ -13,8 +13,8 @@
 		C9C62D1B268D13540093103C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C62D1A268D13540093103C /* Preview Assets.xcassets */; };
 		C9C62D24268D176E0093103C /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C62D23268D176E0093103C /* LaunchView.swift */; };
 		C9C62D26268D184A0093103C /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C62D25268D184A0093103C /* LoginForm.swift */; };
-		C9C62D28268D218A0093103C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9C62D27268D218A0093103C /* GoogleService-Info.plist */; };
 		C9C62D2C268D29710093103C /* CreateForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C62D2B268D29710093103C /* CreateForm.swift */; };
+		C9F29A87268E2EB5004D02F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9F29A86268E2EB4004D02F9 /* GoogleService-Info.plist */; };
 		FAA30EB01B98B026F27FC936 /* Pods_FirebaseAuthCustomUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D81076908E044D69AFA1531 /* Pods_FirebaseAuthCustomUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		C9C62D1C268D13540093103C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9C62D23268D176E0093103C /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		C9C62D25268D184A0093103C /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
-		C9C62D27268D218A0093103C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C9C62D2B268D29710093103C /* CreateForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateForm.swift; sourceTree = "<group>"; };
+		C9F29A86268E2EB4004D02F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F2880638E1A0685B863A3520 /* Pods-FirebaseAuthCustomUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAuthCustomUI.release.xcconfig"; path = "Target Support Files/Pods-FirebaseAuthCustomUI/Pods-FirebaseAuthCustomUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 				C9C62D22268D17500093103C /* Views */,
 				C9C62D17268D13540093103C /* Assets.xcassets */,
 				C9C62D1C268D13540093103C /* Info.plist */,
-				C9C62D27268D218A0093103C /* GoogleService-Info.plist */,
+				C9F29A86268E2EB4004D02F9 /* GoogleService-Info.plist */,
 				C9C62D19268D13540093103C /* Preview Content */,
 			);
 			path = FirebaseAuthCustomUI;
@@ -174,7 +174,7 @@
 			files = (
 				C9C62D1B268D13540093103C /* Preview Assets.xcassets in Resources */,
 				C9C62D18268D13540093103C /* Assets.xcassets in Resources */,
-				C9C62D28268D218A0093103C /* GoogleService-Info.plist in Resources */,
+				C9F29A87268E2EB5004D02F9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

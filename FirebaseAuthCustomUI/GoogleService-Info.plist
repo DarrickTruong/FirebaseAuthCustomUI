@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>249530527273-69vpj9upituaabq87l87rqs7cv3grk5l.apps.googleusercontent.com</string>
+	<string>57429246406-pdpl2lmb416425mcmclq2opn97cmebes.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.249530527273-69vpj9upituaabq87l87rqs7cv3grk5l</string>
+	<string>com.googleusercontent.apps.57429246406-pdpl2lmb416425mcmclq2opn97cmebes</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDy-QgvQpxqEBpbjDF8Yhjs2A_1MVOxUWM</string>
+	<string>AIzaSyD5EVloudvmIL16poNeoQL7WQjII-12Gu8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>249530527273</string>
+	<string>57429246406</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.darrick.FirebaseAuthCustomUI</string>
 	<key>PROJECT_ID</key>
-	<string>fir-authdemo-d7e3a</string>
+	<string>fir-prodmode</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-authdemo-d7e3a.appspot.com</string>
+	<string>fir-prodmode.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:249530527273:ios:03df53c72a8844eecd7638</string>
+	<string>1:57429246406:ios:e50cb5b8e642d2d58bf2c7</string>
 </dict>
 </plist>

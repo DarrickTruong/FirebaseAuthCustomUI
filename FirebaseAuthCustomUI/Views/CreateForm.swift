@@ -7,6 +7,7 @@
 
 import SwiftUI
 import FirebaseAuth
+import FirebaseFirestore
 
 struct CreateForm: View {
     
@@ -16,6 +17,7 @@ struct CreateForm: View {
     @State private var name:String = ""
     @State private var password:String = ""
     @State private var errorMessage:String?
+    @State private var firstName = ""
     
     var body: some View {
         
@@ -24,7 +26,7 @@ struct CreateForm: View {
                 
                 Section{
                     TextField("Email", text: $email)
-                    TextField("Name", text: $name)
+                    TextField("Name", text: $firstName)
                     SecureField("Password", text: $password)
                 }
                 
@@ -56,11 +58,32 @@ struct CreateForm: View {
                     
                     // Success
                     
+                    saveFirstName()
+                    
+                    
                     // Dismiss this sheet
                     showCreateForm = false
                 }
             }
         }
+    }
+    
+    func saveFirstName() {
+        
+        if let currentUser = Auth.auth().currentUser{
+            let cleansedFirstName = firstName.trimmingCharacters(in: .whitespacesAndNewlines)
+            
+            let db = Firestore.firestore()
+            
+            db.collection("users").document(currentUser.uid).setData(["firstName":cleansedFirstName]) { error in
+                
+                if let error = error {
+                    print(error.localizedDescription)
+                } 
+            }
+        }
+        
+        
     }
 }
 
